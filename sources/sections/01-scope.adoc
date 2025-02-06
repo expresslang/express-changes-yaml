@@ -1,0 +1,6 @@
+
+[[scope]]
+== Scope
+
+This document specifies the YAML format used to track changes in EXPRESS schema
+files.

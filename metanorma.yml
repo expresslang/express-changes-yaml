@@ -1,0 +1,9 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/document.adoc
+
+  collection:
+    name: EXPRESS change manifest specification
+    organization: EXPRESS Language Foundation

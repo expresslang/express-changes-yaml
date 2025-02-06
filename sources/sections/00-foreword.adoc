@@ -1,0 +1,44 @@
+
+.Foreword
+
+NOTE: This document is developed and published by the EXPRESS Language
+Foundation. All rights reserved.
+
+The EXPRESS Language Foundation, maintainer of the EXPRESS data modeling language,
+develops and maintains language standards and technologies. The work of
+preparing EXPRESS standards is carried out through technical working groups.
+Each member interested in a subject for which a working group has been
+established has the right to participate in that group. International
+organizations, both governmental and non-governmental, also take part in the
+work.
+
+The procedures used to develop this document and those intended for its further
+maintenance are described in the EXPRESS Language Foundation's documentation
+guidelines. In particular, different approval criteria are needed for different
+types of documents. This document was drafted in accordance with the EXPRESS
+Language Foundation's editorial rules and guidelines.
+
+Attention is drawn to the possibility that some of the elements of this document
+may be the subject of patent rights. The EXPRESS Language Foundation shall not
+be held responsible for identifying any or all such patent rights. Details of
+any patent rights identified during the development of the document will be in
+the Introduction.
+
+Any trade name used in this document is information given for the convenience of
+users and does not constitute an endorsement.
+
+For an explanation of the voluntary nature of standards and the meaning of
+EXPRESS Language Foundation specific terms and expressions related to conformity
+assessment, please refer to the Foundation's documentation guidelines.
+
+This document was prepared by the EXPRESS Language Foundation's Technical
+Working Group.
+
+EXPRESS is organized as a series of specifications, each published separately.
+The structure of EXPRESS is described in the Core Language Specification.
+
+Each specification is a member of one of the following series: description
+methods, implementation methods, conformance testing methodology and framework,
+integrated generic resources, integrated application resources, application
+protocols, abstract test suites, application interpreted constructs, and
+application modules. This part is a member of the description methods series.

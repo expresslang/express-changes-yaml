@@ -1,0 +1,21 @@
+= ELF EXPRESS change manifest specification
+
+This work item belongs to the EXPRESS Language Foundation (ELF).
+
+image:https://github.com/expresslang/express-changes-yaml/workflows/docker/badge.svg["Build Status", link="https://github.com/expresslang/express-changes-yaml/actions?workflow=publish"]
+
+This document is published here:
+
+* https://expresslang.github.io/express-changes-yaml/[ELF EXPRESS change manifest specification]
+
+
+== Fetching the document
+
+[source,sh]
+----
+git clone https://github.com/expresslang/express-changes-yaml/
+----
+
+== Copyright and license
+
+Copyright (c) 2024 EXPRESS Language Foundation.

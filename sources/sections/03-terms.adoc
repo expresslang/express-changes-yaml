@@ -1,0 +1,7 @@
+
+== Terms and definitions
+
+=== change
+
+modification to an EXPRESS schema that alters the structure or semantics of the
+schema

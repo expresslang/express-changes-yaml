@@ -1,0 +1,41 @@
+= ELF: EXPRESS Changes YAML
+:docnumber: 10303
+:partnumber: 82
+:edition: 1
+:copyright-year: 2025
+:revdate: 2025-10-10
+:language: en
+:title-intro-en: EXPRESS Language Foundation
+:title-main-en: EXPRESS change manifest in YAML
+:title-intro-fr: Fondation pour le langage EXPRESS
+:title-main-fr: Manifeste de changement EXPRESS en YAML
+:doctype: international-standard
+:docstage: 00
+:docsubstage: 00
+:technical-committee-number: 184
+:technical-committee: Industrial automation systems and integration
+:subcommittee-type: SC
+:subcommittee-number: 4
+:subcommittee: Industrial data
+:workgroup-type: WG
+:workgroup-number: 12
+:workgroup: STEP product modelling and resources
+:secretariat: ANSI
+:imagesdir: images
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normrefs.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-spec.adoc[]
+
+include::sections/az-bibliography.adoc[]

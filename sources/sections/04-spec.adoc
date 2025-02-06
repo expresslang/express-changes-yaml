@@ -1,0 +1,105 @@
+== Format structure
+
+The EXPRESS Changes YAML format follows this basic structure:
+
+[source,yaml]
+----
+path: String (required)
+  # Relative path to the EXPRESS file
+changes:
+  - type: String (required)
+    # Type of change: add, remove, modify
+    entity: String (required)
+    # Name of the entity being changed
+    details: String (required)
+    # Description of the change
+    original: String (optional)
+    # Original content (for modify/remove)
+    new: String (optional)
+    # New content (for add/modify)
+----
+
+== Change types
+
+=== Add
+
+Used when adding new elements to the schema.
+
+.Example
+[example]
+====
+[source,yaml]
+----
+path: data/schema.exp
+changes:
+  - type: add
+    entity: PERSON
+    details: Add new entity for representing individuals
+    new: |
+      ENTITY PERSON;
+        name: STRING;
+        age: INTEGER;
+      END_ENTITY;
+----
+====
+
+=== Remove
+
+Used when removing elements from the schema.
+
+.Example
+[example]
+====
+[source,yaml]
+----
+path: data/schema.exp
+changes:
+  - type: remove
+    entity: OBSOLETE_TYPE
+    details: Remove deprecated type definition
+    original: |
+      TYPE OBSOLETE_TYPE = INTEGER;
+      END_TYPE;
+----
+====
+
+=== Modify
+
+Used when modifying existing elements.
+
+.Example
+[example]
+====
+[source,yaml]
+----
+path: data/schema.exp
+changes:
+  - type: modify
+    entity: PERSON
+    details: Add email attribute to PERSON entity
+    original: |
+      ENTITY PERSON;
+        name: STRING;
+      END_ENTITY;
+    new: |
+      ENTITY PERSON;
+        name: STRING;
+        email: STRING;
+      END_ENTITY;
+----
+====
+
+== Validation rules
+
+1. The `path` field must be a valid relative path to an EXPRESS file
+2. Each change must have a `type`, `entity`, and `details` field
+3. `original` is required for `remove` and `modify` types
+4. `new` is required for `add` and `modify` types
+5. Multiple changes can be specified for the same file
+
+== Usage guidelines
+
+1. Keep change descriptions clear and specific
+2. Include context in the details field
+3. Maintain proper EXPRESS syntax in original/new content
+4. Use consistent indentation in YAML structure
